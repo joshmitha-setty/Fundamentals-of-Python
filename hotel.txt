@@ -1,0 +1,21 @@
+Write a  program to calculate the hotel tariff. The room rent is 20% high during peak seasons [April-June, November-December] .
+Sample Input :
+3
+1500
+2
+Sample Output :
+Hotel Tariff: Rs.3000.00
+
+Solution:
+month = int(input())
+rent = float(input())
+days = int(input())
+if month in range(4,7) or month in range(11,12):
+    rent = rent+(0.2)*rent
+    tt= rent*days
+    print("Hotel Tariff:Rs.%.2f"%tt)
+elif month>12:
+    print("Invalid input")
+else:
+    total = rent*days 
+    print("Hotel Tariff:Rs.%.2f"%total)
