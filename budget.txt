@@ -1,0 +1,30 @@
+It’s your job to calculate the cost of replacing damaged battle droids and to check whether it is within the budget limit of Rs. 15000. The cost of the equipment and 
+parts is given in the table below.
+
+Blast Rifle    Rs. 350.34
+Visual Sensors   Rs. 230.90
+Auditory Sensors   Rs. 190.55
+Arms    Rs. 125.30
+Legs   Rs. 180.90
+write a program to do the given task
+Sample Input:
+20 10 14 3 9
+Sample Output:
+yes
+
+Solution:
+br = int(input())
+vs = int(input())
+sa = int(input())
+a = int(input())
+l = int(input())
+brc = br*350.34
+vsc = vs*230.90
+asc = sa*190.55
+ac = a*125.30
+lc = l*180.90
+total = brc+vsc+asc+ac+lc
+if(total<15000):
+    print("yes")
+else:
+    print("no")
