@@ -1,0 +1,12 @@
+Write a program to find the sum of digits in a given number. Program to find the sum of digits of the given number is discussed here. 
+Sample Input:
+719
+Sample Output:
+17
+
+Solution:
+num = int(input())
+sum = 0
+for digits in str(num):
+    sum+=int(digits)
+print(sum)
