@@ -1,0 +1,11 @@
+Write a program to find the sum of first N natural numbers.
+Sample Input & Output:
+5
+15
+
+Solution:
+x = int(input())
+sum=0
+for x in range(1,x+1):
+    sum+=x
+print(sum)
