@@ -1,0 +1,14 @@
+Write a program to find the Square of a number using function.
+Sample Input & Output:
+
+5
+
+25
+
+Solution:
+def my_function():
+    n = int(input())
+    sq = n*n
+    print(sq)
+    
+my_function()
