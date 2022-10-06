@@ -1,0 +1,17 @@
+Write a Python Program to find the fibonacci series using recursion.
+
+Sample Input & Output:
+
+ 5
+
+0 1 1 2 3 
+
+Solution:
+def fs(n):
+    if n<=1:
+        return n
+    else:
+        return(fs(n-1)+fs(n-2))
+n = int(input())
+for i in range(n):
+    print(fs(i),end=" ")
