@@ -1,0 +1,14 @@
+Write a program to find the cube of a number using function.
+Sample Input & Output:
+
+5
+
+125
+
+Solution:
+def my_function():
+    n = int(input())
+    c = pow(n,3)
+    print(c)
+    
+my_function()
