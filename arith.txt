@@ -1,0 +1,42 @@
+Write a program to perform all the arithmetic operation including floor division by using a function.
+Sample Input :
+
+5
+
+2
+
+Sample Output:
+
+7
+
+3
+
+10
+
+2.5
+
+2
+
+1
+
+Solution:
+def my_function():
+   a=int(input())
+   b=int(input())
+   add = a+b
+   sub = a-b
+   mul = a*b
+   mod = a/b
+   rem = a%b
+   fld = a//b
+   print(add,end="\n")
+   print(sub,end="\n")
+   print(mul,end="\n" )
+   print(mod,end="\n" )
+   print(fld,end="\n" )
+   print(rem )
+   
+my_function()
+    
+
+
